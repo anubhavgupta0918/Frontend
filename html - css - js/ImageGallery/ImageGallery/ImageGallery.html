@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Image Gallery
+	</title>
+
+	<!--Style CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="header">
+
+			<a href="ImageGallery.html"><img src="logo.png"  class="logo" height="80px" width="120px" ></a>
+			<p class="heading ">IMAGE GALLERY</p>
+			<ul>
+				<li><a href="ImageGallery.html">HOME</a></li>
+				<li><a href="community.html">COMMUNITY</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+
+			</ul>
+	</div>
+
+	<h1>Welcome to Image Gallery</h1>
+	
+    <br>
+
+	<div class="myProducts">
+		<div class="myProducts-gallery">
+			<img src="mountains-1587287_960_720.jpg" alt="click here" onclick="myImageFunction(this)">
+			<img src="mountains-190055_960_720.jpg" alt="click here" onclick="myImageFunction(this)">
+			<img src="sunset-675847_960_720.jpg" alt="click here" onclick="myImageFunction(this)">
+			<img src="sea-164989_960_720.jpg" alt="click here" onclick="myImageFunction(this)">	
+			<img src="river-219972_960_720.jpg" alt="click here" onclick="myImageFunction(this)">	
+		</div>
+
+		<div class="image-container">
+			<img id="img-Box" src="tree-736885_960_720.jpg" alt="click here">
+		</div>
+	</div>
+
+	<script>
+		function myImageFunction(SmallImg) {
+			var FullImg = document.getElementById("img-Box");
+			FullImg.src = SmallImg.src;
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Yaldevi', sans-serif;
+}
+
+h1 {
+	color:#43A6B6;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 22px;
+}
+
+
+.header{
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	color: white;
+	display: flex;
+}
+.heading{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: -5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.logo{
+	padding-top: -1px;
+	padding-left: 50px;
+}
+
+.header ul {
+	margin-left: 600px;
+}
+
+.header ul li {
+
+	margin-left: 50px;
+	margin-top: 30px;
+	display: inline-block;
+	
+
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #43A6B6;
+	font-size: 25px;
+	font-family: 'Yaldevi', sans-serif;
+	font-weight: bold;
+
+
+}
+.header ul li:hover{
+	transform: scale(1.3);
+    transition: .2s ease-in-out;
+	background-color: rgb(104, 100, 100);
+	padding: 2px;
+}
+.myProducts-gallery img{
+	height: 92px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: .5;
+}
+
+.myProducts-gallery img:hover {
+	opacity: 1;
+}
+
+.myProducts-gallery {
+	float: left;
+}
+
+.myProducts {
+	top: 60%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+}
+
+.image-container img {
+	height: 400px;
+	transition: transform 1s;
+}
+
+.image-container img:hover{
+	transform: scale(1.5);
+	cursor: zoom-in;
+}
+
+.image-container {
+	float: right;
+	padding: 10px;
+}
