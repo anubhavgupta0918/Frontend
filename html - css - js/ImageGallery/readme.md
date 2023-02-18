@@ -1,4 +1,5 @@
-image gallery 
+<h1>Image Gallery </h1>
+
 ![image](https://user-images.githubusercontent.com/57323463/219871825-41033da4-c105-44ed-8a6a-9661442e048f.png)
 
 on Hover
